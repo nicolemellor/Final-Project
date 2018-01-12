@@ -1,0 +1,111 @@
+
+/*
+* Nicole Mellor
+* January 11, 2017
+* Final Project Innovative Women
+* Three Column Template */
+
+
+
+* { background-color: lightyellow;
+    margin: 0;
+    padding: 0; }
+
+header { 
+    border-bottom: 3px solid #ef9c00; }
+
+
+body {
+    width: 85%;
+    background-color: lightyellow;
+    margin: 15px auto;
+    border: 2px solid black; }
+
+#sidebarA {
+    width: 22%;
+    height: 450px;     
+    float: left;
+    border-right: 3px solid #ef9c00; }
+
+/* This is information to explain how the main is designed */
+
+main {
+	margin: 15px;
+    width: 50%; 
+    float: left; }
+
+img {
+	float: left;
+	padding: 10px;  }
+
+#sidebarB {
+    width: 24%;
+    height: 450px;     
+    float: right;
+    border-left: 3px solid #ef9c00; }
+
+/* This is information to explain how the footer is designed */
+
+footer {
+    clear: both; 
+    border-top: 3px solid #ef9c00; }
+  
+
+/* This is connected to my personal two most important headings and how to display them */
+  
+h1{
+	font-size: 200%;
+	text-align: center;
+	text-transform: uppercase;
+	color: gray;
+	background-color: lightyellow; } 
+	 
+ /* This is to display the two sidebars appearance */
+ 
+h2{
+	font-size: 120%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: purple;
+	background-color: lightyellow; }
+	 
+ /* This is to display under main heading names appearance */
+ 
+h3{
+	font-size: 150%;
+	text-align: center;
+	color: hotpink;
+	font-family: "comic sans ms", cursive, sans-serif; }
+	 
+ /* This is the footers main heading appearance */
+ 
+h4{
+	font-size: 150%;
+	text-align: left;
+	text-decoration: underline;
+	background-color: lightyellow; }
+	
+	 /* This is to display the disclaimers appearance on the web page */
+	 
+h5{
+	font-size: 90%;
+	text-align: right;
+	color: red;
+	background-color: lightyellow; }
+	
+	/* This how the links will show up on the web page */
+	
+h6{
+	font-size: 90%;
+	text-align: left;
+	background-color: lightyellow; }
+	
+.sidep {
+	margin: 15px; }
+	
+.sideg {
+	margin: 15px; }
+	
+.sided {
+	margin: 15px; }
